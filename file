@@ -1,0 +1,27 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+    /*ofstream myfile;
+    myfile.open("market.txt");
+    myfile<<"shrouk";
+    myfile.close();
+    */
+    /*
+    ifstream myfile;
+    myfile.open("market.txt");
+    cout<<myfile.rdbuf();
+    myfile.close();
+    */
+ //   /*
+    fstream myfile;
+    myfile.open("market.txt",ios::out|ios::app);
+    myfile<<"nady";
+    myfile.close();
+   // */
+
+    return 0;
+}
+
